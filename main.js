@@ -1,20 +1,15 @@
 /*
 =======================================================
-
 ** Week 3 - Project 2 **
 *** More Functioning ***
-
 Below are a number of problems for you to solve
 using JS. The JS code can be written below each
 problem and the result can be logged to the console.
-
 In order to make the results easy to read,
 please use console.log("Question #") to declare the
 problem number being solved followed by console.log(yourAnswer) after each question.
-
 For any methods that we didn't cover, please refer to the Functions Documentation.
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions
-
 BASIC TRACK: 1-9
 ADVANCED TRACK: 10-13
 =======================================================
@@ -22,6 +17,13 @@ ADVANCED TRACK: 10-13
 
 // 1. Without using Math.min(), write a function called minimum() that takes two numbers
 //    and outputs the smaller number.
+function minimum(a,b){
+	if(a<b){return a;
+		
+	}
+	return b;
+}
+console.log(minimum(55,50))
 
 // 2. Create a new function called minimum3() to find the smallest of three numbers.
 
